@@ -1,0 +1,73 @@
+//Body
+
+* {
+  font-family: Montserrat;
+}
+
+// Navigations
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+.nav_bar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  cursor: pointer;
+}
+
+//Header
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px 80px 50px;
+}
+
+.logo{
+  width: 210px;
+  height: 68px;
+}
+
+.banner{
+  width: 100%;
+  height: 223px;
+  opacity: 100%;
+  filter: brightness(0.5);
+  border-radius: 25px;
+}
+
+.header_up{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 0px 50px 0px 50px;
+}
+
+h1{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  width: 733px;  
+  text-shadow:
+  1px 3px 9px #000,
+-1px -1px 0 #000,  
+ 1px -1px 0 #000,
+ -1px 1px 0 #000,
+  1px 1px 0 #000;
+  margin: 0px;
+}

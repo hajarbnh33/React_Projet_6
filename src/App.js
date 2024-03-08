@@ -1,27 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Error from "./components/Error";
+import Logement from "./pages/Logements";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-function App() {
-const name = "Hajar !";
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Bienvenue{name}</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => {
+    return (
+        <div>
+            <Router>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/logement" element={<Logement />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="*" element={<Error />} />
+                    </Routes>
+            </Router>
+        </div>
+    );
+};
+
 
 export default App;
