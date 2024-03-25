@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/app.css';
-import Header from '../components/headers/Header';
+import Main from '../components/main/Section';
+import Banner from '../components/headers/Banner';
 
-function Home() {
+function Home({bannerImage}) {
   return <div>
-  
-   <Header />
-  
+  <Banner bannerImage={bannerImage}/>
+   <Main />
     </div>;
 }
 
