@@ -1,4 +1,4 @@
-import '../../styles/app.css';
+import '../../styles/components/housing_component/slides.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 

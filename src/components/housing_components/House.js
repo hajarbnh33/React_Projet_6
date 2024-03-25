@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../styles/app.css';
+import '../../styles/components/housing_component/house.scss';
 import Host from './Host';
 import Rating from './Rating';
 import Tags from './Tag'

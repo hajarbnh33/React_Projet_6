@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/app.css';
+//import '../styles/app.css';
 import Accordion from '../components/accordion_components/Accordion';
 import Banner from '../components/headers/Banner';
 

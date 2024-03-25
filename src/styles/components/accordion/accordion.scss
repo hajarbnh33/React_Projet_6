@@ -1,0 +1,66 @@
+//About
+
+.section_about{
+    padding: 0px 100px 40px 100px;
+  }
+  
+  .collapse{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 0px 15px 0px;
+    &__menu{ 
+      display: flex;
+      align-items: center;
+      background-color:rgba(255, 96, 96, 1);
+      height: 52px;
+      border-radius: 5px;
+      justify-content: space-between;
+      cursor: pointer;
+      padding-left: 15px;
+      color: rgba(255, 255, 255, 1);
+      font-size: 24px;
+      font-weight: 700;
+      transition: transform 300ms ease-in-out;
+    }
+    &__item{
+      &--closed{
+        .collapse__content{
+          max-height: 0;
+        }
+        .fa-chevron-up{
+          transform: rotate(0deg);
+        }  
+      
+      }
+     
+    }
+     &__content{
+      overflow: hidden;
+
+    } 
+  }
+  
+  
+  .collapse_house .Accordion {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  
+  .fa-chevron-up{
+    color: white;
+    padding: 0 10px;
+    transition: transform 300ms ease-in-out;
+    transform: rotate(180deg);
+  }
+  
+  @media (max-width:768px){
+    .section_about{
+      padding: 0px 30px 40px 30px;
+  
+    }
+    .collapse{
+      padding: 0px;
+    }    
+  }

@@ -1,4 +1,4 @@
-import '../../styles/app.css';
+import '../../styles/components/housing_component/host.scss';
 
 function Host ({houseData}){
     return(

@@ -1,4 +1,4 @@
-import '../../styles/app.css';
+import '../../styles/components/housing_component/tag.scss';
 
 function Tags ({houseData}){
     return(

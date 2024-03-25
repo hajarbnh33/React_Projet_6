@@ -1,0 +1,17 @@
+.tags{
+    display: flex;
+    list-style: none;
+    gap: 7px;
+    .tags_text{
+      display: flex;
+      border-radius: 10px;
+      background-color: rgba(255, 96, 96, 1);
+      color: white;
+      height: 25px;
+      font-size: 14px;
+      text-align: center;
+      font-weight: 700;
+      padding: 0 10px;
+      align-items: center;
+    }
+  }

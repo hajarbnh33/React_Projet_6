@@ -1,4 +1,4 @@
-import '../../styles/app.css';
+import '../../styles/components/housing_component/rating.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as solidStar } from '@fortawesome/free-solid-svg-icons';
 
