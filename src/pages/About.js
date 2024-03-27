@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Accordion from '../components/accordion_components/Accordion';
 import Banner from '../components/headers/Banner';
 
-function About({bannerImage,showTitle}) {
+function About({bannerImage}) {
    // Définir l'état initial de chaque section
    const [contentData] = useState([
       { 
