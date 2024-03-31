@@ -27,7 +27,7 @@ const Housing = () => {
                     navigate('/404');
                     return;
                 }
-                const housePictures = house ? house.pictures : [];
+                const housePictures = house ? house.pictures : []; 
                 setPictures(housePictures);
                 setHouseData(house ? house : {});
                 setDataLoaded(true);
@@ -37,7 +37,7 @@ const Housing = () => {
         };
 
         if (!dataLoaded) {
-            fetchData();
+            fetchData(); 
         }
     }, [dataLoaded, id, navigate]);
 

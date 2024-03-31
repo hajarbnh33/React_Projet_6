@@ -18,11 +18,11 @@
 		"rating": "5",
 		"location": "Ile de France - Paris 17e",
 		"equipments": [
-			"Équipements de base",
-			"Micro-Ondes",
-			"Douche italienne",
-			"Frigo",
-			"WIFI"
+			"Équipements de base ",
+			"Micro-Ondes ",
+			"Douche italienne ",
+			"Frigo ",
+			"WIFI "
 		],
 		"tags": [
 			"Batignolle",
@@ -49,12 +49,12 @@
 		"rating": "4",
 		"location": "Ile de France - Paris 10e",
 		"equipments": [
-			"Parking",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision"
+			"Parking ",
+			"Sèche Cheveux ",
+			"Machine à laver ",
+			"Wi-fi ",
+			"Cuisine équipée ",
+			"Télévision "
 		],
 		"tags": [
 			"Canal Saint Martin",
@@ -80,10 +80,10 @@
 		"rating": "3",
 		"location": "Ile de France - Paris 20e",
 		"equipments": [
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision",
-			"Sèche Cheveux"
+			"Wi-fi ",
+			"Cuisine équipée ",
+			"Télévision ",
+			"Sèche Cheveux "
 		],
 		"tags": [
 			"Buttes Chaumont",
@@ -109,11 +109,11 @@
 		"rating": "3",
 		"location": "Ile de France - Paris 11e",
 		"equipments": [
-			"Micro-Ondes",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Climatisation",
-			"Télévision"
+			"Micro-Ondes ",
+			"Wi-fi ",
+			"Chambre Séparée ",
+			"Climatisation ",
+			"Télévision "
 		],
 		"tags": [
 			"Parmentier",
@@ -142,11 +142,11 @@
 		"rating": "5",
 		"location": "Ile de France - Paris 10e",
 		"equipments": [
-			"Frigo Américain",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Parking"
+			"Frigo Américain ",
+			"Sèche Cheveux ",
+			"Wi-fi ",
+			"Chambre Séparée ",
+			"Parking "
 		],
 		"tags": [
 			"Goncourt",

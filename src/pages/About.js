@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-//import '../styles/app.css';
 import Accordion from '../components/accordion_components/Accordion';
 import Banner from '../components/headers/Banner';
 
 function About({bannerImage}) {
-   // Définir l'état initial de chaque section
    const [contentData] = useState([
       { 
           name: 'Fiabilité', 
