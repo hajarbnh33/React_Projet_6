@@ -199,12 +199,12 @@
 		"rating": "3",
 		"location": "Ile de France - Paris 18e",
 		"equipments": [
-			"Salle de bains",
-			"Frigo",
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Bureau",
-			"Parking"
+			"Salle de bains ",
+			"Frigo ",
+			"Wi-fi ",
+			"Sèche Cheveux ",
+			"Bureau ",
+			"Parking "
 		],
 		"tags": [
 			"Transports",
@@ -232,12 +232,12 @@
 		"rating": "5",
 		"location": "Ile de France - Paris 6e",
 		"equipments": [
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Parking",
-			"Lit King Size",
-			"Ascenseur"
+			"Wi-fi ",
+			"Sèche Cheveux ",
+			"Machine à laver ",
+			"Parking ",
+			"Lit King Size ",
+			"Ascenseur "
 		],
 		"tags": [
 			"Luxe",
@@ -265,11 +265,11 @@
 		"rating": "4",
 		"location": "Ile de France - Paris 14e",
 		"equipments": [
-			"Climatisation",
-			"Machine à laver",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Parking"
+			"Climatisation ",
+			"Machine à laver ",
+			"Sèche Cheveux ",
+			"Wi-fi ",
+			"Parking "
 		],
 		"tags": [
 			"Montparnasse",
@@ -295,12 +295,12 @@
 		"rating": "3",
 		"location": "Ile de France - Paris 11e",
 		"equipments": [
-			"Vue Parc",
-			"Chauffage",
-			"Sèche linge",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Ascenseur"
+			"Vue Parc ",
+			"Chauffage ",
+			"Sèche linge ",
+			"Sèche Cheveux ",
+			"Wi-fi ",
+			"Ascenseur "
 		],
 		"tags": [
 			"Père Lachaise",
@@ -327,10 +327,10 @@
 		"rating": "4",
 		"location": "Ile de France - Paris 11e",
 		"equipments": [
-			"Clic-clac",
-			"Four",
-			"Sèche Cheveux",
-			"Wi-fi"
+			"Clic-clac ",
+			"Four ",
+			"Sèche Cheveux ",
+			"Wi-fi "
 		],
 		"tags": [
 			"Marais",
@@ -356,11 +356,11 @@
 		"rating": "3",
 		"location": "Ile de France - Paris 3e",
 		"equipments": [
-			"Rangements",
-			"Lit",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"TV",
+			"Rangements ",
+			"Lit ",
+			"Sèche Cheveux ",
+			"Wi-fi ",
+			"TV ",
 			"Bouilloire"
 		],
 		"tags": [
@@ -390,10 +390,10 @@
 		"rating": "5",
 		"location": "Ile de France - Ecouen",
 		"equipments": [
-			"SDB",
-			"Cuisine équipée",
-			"Toilettes sèches",
-			"Frigo",
+			"SDB ",
+			"Cuisine équipée ",
+			"Toilettes sèches ",
+			"Frigo ",
 			"Bouilloire"
 		],
 		"tags": [
@@ -421,13 +421,13 @@
 		"rating": "4",
 		"location": "Ile de France - Arnouville",
 		"equipments": [
-			"SDB",
-			"Cuisine équipée",
-			"Frigo",
-			"Bouilloire",
-			"WIFI",
-			"Télévision",
-			"Cintres",
+			"SDB ",
+			"Cuisine équipée ",
+			"Frigo ",
+			"Bouilloire ",
+			"WIFI ",
+			"Télévision ",
+			"Cintres ",
 			"Équipements de base"
 		],
 		"tags": [
@@ -455,16 +455,16 @@
 		"rating": "3",
 		"location": "Ile de France - Arnouville",
 		"equipments": [
-			"Bouilloire",
-			"SDB",
-			"Cuisine équipée",
-			"Frigo",
-			"WIFI",
-			"TV",
-			"Cintres",
-			"Four",
-			"Micro-Ondes",
-			"Parking"
+			"Bouilloire ",
+			"SDB ",
+			"Cuisine équipée ",
+			"Frigo ",
+			"WIFI ",
+			"TV ",
+			"Cintres ",
+			"Four ",
+			"Micro-Ondes ",
+			"Parking "
 		],
 		"tags": [
 			"Nature",
@@ -491,12 +491,12 @@
 		"rating": "3",
 		"location": "Ile de France - La Défense",
 		"equipments": [
-			"Baie vitrée",
-			"Télévision",
-			"Four",
-			"Frigo",
-			"Wi-fi",
-			"Micro-Ondes",
+			"Baie vitrée ",
+			"Télévision ",
+			"Four ",
+			"Frigo ",
+			"Wi-fi ",
+			"Micro-Ondes ",
 			"Parking"
 		],
 		"tags": [
@@ -524,11 +524,11 @@
 		"rating": "4",
 		"location": "Ile de France - Levallois",
 		"equipments": [
-			"Télévision",
-			"Four",
-			"Frigo",
-			"Hotte",
-			"Wi-fi",
+			"Télévision ",
+			"Four ",
+			"Frigo ",
+			"Hotte ",
+			"Wi-fi ",
 			"Micro-Ondes"
 		],
 		"tags": [
@@ -551,8 +551,8 @@
 		"rating": "2",
 		"location": "Ile de France - Paris 20e",
 		"equipments": [
-			"Bouilloire",
-			"Wi-fi",
+			"Bouilloire ",
+			"Wi-fi ",
 			"Micro-Ondes"
 		],
 		"tags": [
@@ -577,10 +577,10 @@
 		"rating": "4",
 		"location": "Ile de France - Paris 13e",
 		"equipments": [
-			"Équipements de base",
-			"Four",
-			"Frigo",
-			"Wi-fi",
+			"Équipements de base ",
+			"Four ",
+			"Frigo ",
+			"Wi-fi ",
 			"Micro-Ondes"
 		],
 		"tags": [
@@ -604,10 +604,10 @@
 		"rating": "4",
 		"location": "Ile de France - Paris 13e",
 		"equipments": [
-			"Wi-fi",
-			"Équipements de base",
-			"Micro-Ondes",
-			"Frigo",
+			"Wi-fi ",
+			"Équipements de base ",
+			"Micro-Ondes ",
+			"Frigo ",
 			"Baignoire"
 		],
 		"tags": [
