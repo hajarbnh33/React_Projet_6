@@ -5,12 +5,12 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 function Accordion ({contentData}) { 
     const [activeIndex, setActiveIndex] = useState(null);
-
+//basculer l'état du collapse
     const toggleAccordion = (index) => { 
         if (activeIndex === index) { 
-            setActiveIndex(null); 
+            setActiveIndex(null); //on ferme la section car index identique
         } else {
-            setActiveIndex(index);
+            setActiveIndex(index); //on ouvre la nouvelle section et met a jour index   
         }
     };
 
@@ -20,7 +20,7 @@ function Accordion ({contentData}) {
         <div className='collapse'>
             {contentData.map((content, index) => (
                 <div
-                    className={`collapse__item ${activeIndex === index ? '' : 'collapse__item--closed'}`}
+                    className={`collapse__item ${activeIndex === index ? '' : 'collapse__item--closed'}`} //classe conditionnelle: contrôle l'apparence visuelle des éléments de l'accordéon qui sont fermés.
                     key={index}
                     onClick={() => toggleAccordion(index)}
                 >

@@ -27,6 +27,8 @@
       &--closed{
         .collapse__content{
           max-height: 0;
+          transition: max-height 0.9s ease-out;
+
         }
         .fa-chevron-up{
           transform: rotate(0deg);
@@ -37,8 +39,14 @@
     }
      &__content{
       overflow: hidden;
+    }
+  }
 
-    } 
+  .collapse__content{
+    margin-top: 10px;
+    max-height: 1000px; 
+    overflow: hidden;
+    transition: max-height 0.9s ease-in-out;
   }
   
   

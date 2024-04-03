@@ -11,7 +11,7 @@ import Accordion from '../components/accordion_components/Accordion';
 const Housing = () => {
     const { id } = useParams();
     const navigate = useNavigate();
-
+    //états locaux
     const [houseData, setHouseData] = useState({});
     const [picturesHouse, setPictures] = useState([]);
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -22,12 +22,12 @@ const Housing = () => {
             try {
                 const response = await fetch(`http://localhost:3000/logements.json`);
                 const data = await response.json();
-                const house = data.find(house => house.id === id);
+                const house = data.find(house => house.id === id); //Cette ligne recherche dans les données des logements la maison dont l'identifiant correspond à celui extrait de l'URL à l'aide de useParams
                 if (!house) {
                     navigate('/404');
                     return;
                 }
-                const housePictures = house ? house.pictures : []; 
+                const housePictures = house ? house.pictures : []; //si logement trouvé
                 setPictures(housePictures);
                 setHouseData(house ? house : {});
                 setDataLoaded(true);
@@ -39,7 +39,7 @@ const Housing = () => {
         if (!dataLoaded) {
             fetchData(); 
         }
-    }, [dataLoaded, id, navigate]);
+    }, [dataLoaded, id, navigate]); //l'effet est exécuté lorsque l'une des valeurs listées dans le tableau change. 
 
     const nextSlide = () => {
         setCurrentSlide((currentSlide + 1) % picturesHouse.length);
@@ -67,7 +67,7 @@ const Housing = () => {
                         <Accordion 
                             contentData={[
                                 { name: 'Description', content: houseData.description },
-                                { name: 'Equipements', content: houseData.equipments || [] }
+                                { name: 'Equipements', content: houseData.equipments || [] } //si valeur null, tab vide, Cela garantit que le composant Accordion peut toujours rendre correctement les données, même si houseData.equipments est absent ou non défini.
                             ]} 
                         />
                     )}   
