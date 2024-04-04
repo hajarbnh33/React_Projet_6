@@ -4,23 +4,25 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 function Accordion ({contentData}) { 
-    const [activeIndex, setActiveIndex] = useState(null);
-//basculer l'état du collapse
-    const toggleAccordion = (index) => { 
-        if (activeIndex === index) { 
-            setActiveIndex(null); //on ferme la section car index identique
-        } else {
-            setActiveIndex(index); //on ouvre la nouvelle section et met a jour index   
-        }
-    };
+    const [activeIndex, setActiveIndex] = useState([]);
 
+    //basculer l'état du collapse
+    const toggleAccordion = (index) => {
+    if (activeIndex.includes(index)) {
+        //fermer en le retirant du tableau si ouvert
+        setActiveIndex(activeIndex.filter((i) => i !== index));
+    } else {
+        // Sinon ouvrir en ajoutant l'index au tableau
+        setActiveIndex([...activeIndex, index]);
+    }
+};
 
     return (
         <section className='section_about'>
         <div className='collapse'>
             {contentData.map((content, index) => (
                 <div
-                    className={`collapse__item ${activeIndex === index ? '' : 'collapse__item--closed'}`} //classe conditionnelle: contrôle l'apparence visuelle des éléments de l'accordéon qui sont fermés.
+                    className={`collapse__item ${activeIndex.includes(index) ? '' : 'collapse__item--closed'}`}
                     key={index}
                     onClick={() => toggleAccordion(index)}
                 >
